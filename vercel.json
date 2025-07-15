@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/vercel_botnet_api.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "/api/vercel_botnet_api.py" }]
+}
