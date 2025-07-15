@@ -1,0 +1,12 @@
+{
+  "name": "botnet-c2-api",
+  "version": "1.0.0",
+  "description": "Flask-powered C2 command queue for botnet workers",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "api/vercel_botnet_api.py",
+  "engines": {
+    "python": "3.9"
+  }
+}
